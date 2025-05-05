@@ -1,20 +1,19 @@
-# Dennis
+# AI CODER DENNIS
 
 ![Dennis: AI-Powered Full-Stack Web Development in the Browser](https://raw.githubusercontent.com/JayashBhandary/Dennis/refs/heads/main/dennisgithub%20copy.png)
 
-Welcome to Dennis, the official open source version of Bolt.new (previously known as oTToDev and bolt.new ANY LLM), which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
+Welcome to Dennis, the open source version of which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 
 ---
 
-Check the [Dennis Docs](https://stackblitz-labs.github.io/Dennis/) for more offical installation instructions and more informations.
+Check the Dennis Docs for more offical installation instructions and more informations.
 
 ---
 
-Also [this pinned post in our community](https://thinktank.ottomator.ai/t/videos-tutorial-helpful-content/3243) has a bunch of incredible resources for running and deploying Dennis yourself!
+Also this pinned post in our community has a bunch of incredible resources for running and deploying Dennis yourself!
 
-We have also launched an experimental agent called the "Dennis Expert" that can answer common questions about Dennis. Find it here on the [oTTomator Live Agent Studio](https://studio.ottomator.ai/).
 
-Dennis was originally started by [Cole Medin](https://www.youtube.com/@ColeMedin) but has quickly grown into a massive community effort to build the BEST open source AI coding assistant!
+Dennis was originally started by [Jayash Bhandary](https://www.instagram.com/jayashbhandary_/) but has quickly grown into a massive community effort to build the BEST open source AI coding assistant!
 
 ## Table of Contents
 
@@ -28,9 +27,6 @@ Dennis was originally started by [Cole Medin](https://www.youtube.com/@ColeMedin
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
 
-## Join the community
-
-[Join the Dennis community here, in the oTTomator Think Tank!](https://thinktank.ottomator.ai)
 
 ## Project management
 
@@ -38,7 +34,7 @@ Dennis is a community effort! Still, the core team of contributors aims at organ
 you to understand where the current areas of focus are.
 
 If you want to know what we are working on, what we are planning to work on, or if you want to contribute to the
-project, please check the [project management guide](./PROJECT.md) to get started easily.
+project.
 
 ## Requested Additions
 
@@ -83,7 +79,7 @@ Let's get you up and running with the stable version of Dennis!
 
 ## Quick Download
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/Dennis?label=Download%20Bolt&sort=semver)](https://github.com/stackblitz-labs/Dennis/releases/latest) ← Click here to go the the latest release version!
+[Download Latest Release](https://github.com/JayashBhandary/Dennis/releases/latest) ← Click here to go the the latest release version!
 
 - Next **click source.zip**
 
@@ -136,30 +132,6 @@ You have two options for running Dennis: directly on your machine or using Docke
    pnpm run dev
    ```
    
-### Option 2: Using Docker
-
-This option requires some familiarity with Docker but provides a more isolated environment.
-
-#### Additional Prerequisite
-
-- Install Docker: [Download Docker](https://www.docker.com/)
-
-#### Steps:
-
-1. **Build the Docker Image**:
-
-   ```bash
-   # Using npm script:
-   npm run dockerbuild
-
-   # OR using direct Docker command:
-   docker build . --target bolt-ai-development
-   ```
-
-2. **Run the Container**:
-   ```bash
-   docker compose --profile development up
-   ```
 
 ## Configuring API Keys and Providers
 
@@ -172,19 +144,15 @@ Setting up your API keys in Dennis is straightforward:
 3. Click the pencil (edit) icon
 4. Enter your API key in the secure input field
 
-![API Key Configuration Interface](./docs/images/api-key-ui-section.png)
-
 ### Configuring Custom Base URLs
 
 For providers that support custom base URLs (such as Ollama or LM Studio), follow these steps:
 
 1. Click the settings icon in the sidebar to open the settings menu
-   ![Settings Button Location](./docs/images/bolt-settings-button.png)
 
 2. Navigate to the "Providers" tab
 3. Search for your provider using the search bar
 4. Enter your custom base URL in the designated field
-   ![Provider Base URL Configuration](./docs/images/provider-base-url.png)
 
 > **Note**: Custom base URLs are particularly useful when running local instances of AI models or using custom API endpoints.
 
@@ -213,7 +181,7 @@ This method is recommended for developers who want to:
 
    ```bash
    # Using HTTPS
-   git clone https://github.com/stackblitz-labs/Dennis.git
+   git clone https://github.com/JayashBhandary/Dennis.git
    ```
 
 2. **Navigate to Project Directory**:
@@ -307,18 +275,10 @@ Remember to always commit your local changes or stash them before pulling update
 
 ## Contributing
 
-We welcome contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
-
----
-
-## Roadmap
-
-Explore upcoming features and priorities on our [Roadmap](https://roadmap.sh/r/ottodev-roadmap-2ovzo).
+We welcome contributions! Check out our Contributing Guide to get started.
 
 ---
 
 ## FAQ
 
 For answers to common questions, issues, and to see a list of recommended models, visit our [FAQ Page](FAQ.md).
-# Dennis
-# Dennis
