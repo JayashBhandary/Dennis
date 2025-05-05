@@ -1,137 +1,124 @@
-# AI CODER DENNIS
+# 🚀 AI CODER DENNIS
 
 ![Dennis: AI-Powered Full-Stack Web Development in the Browser](https://raw.githubusercontent.com/JayashBhandary/Dennis/refs/heads/main/dennisgithub%20copy.png)
 
-Welcome to Dennis, the open source version of which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
+Welcome to **Dennis** – your blazing-fast, open-source 🧠👨‍💻 **AI coding assistant** for full-stack development **right in your browser**!
+
+✨ With Dennis, you can choose your favorite **LLM** for every prompt — including:
+- 🔮 OpenAI
+- 🧠 Anthropic
+- 🔧 Ollama
+- 🌈 Gemini
+- ⚡️ Groq
+- 🤖 LM Studio
+- 🦙 Mistral
+- 🚀 xAI
+- 🧬 HuggingFace
+- 🔍 DeepSeek
+- 🧭 OpenRouter
+
+...and you can even extend it to any other model supported by the **Vercel AI SDK**!
 
 ---
 
-Check the Dennis Docs for more offical installation instructions and more informations.
+📚 **Check out the [Dennis Docs](https://github.com/JayashBhandary/Dennis)** for official installation instructions and more!
+
+💬 Also, don’t miss the **pinned post in our community** – packed with resources to help you run and deploy Dennis like a pro.
 
 ---
 
-Also this pinned post in our community has a bunch of incredible resources for running and deploying Dennis yourself!
+🛠️ **Originally created by [Jayash Bhandary](https://www.instagram.com/jayashbhandary_/)**, Dennis has quickly grown into a passionate, global community effort to build the **BEST** open-source AI dev tool out there!
 
+---
 
-Dennis was originally started by [Jayash Bhandary](https://www.instagram.com/jayashbhandary_/) but has quickly grown into a massive community effort to build the BEST open source AI coding assistant!
+## 📑 Table of Contents
 
-## Table of Contents
+- [🌍 Join the Community](#join-the-community)
+- [📌 Requested Additions](#requested-additions)
+- [✨ Features](#features)
+- [🔧 Setup](#setup)
+- [🚀 Run the Application](#running-the-application)
+- [📜 Available Scripts](#available-scripts)
+- [🤝 Contributing](#contributing)
+- [❓ FAQ](#faq)
 
-- [Join the Community](#join-the-community)
-- [Requested Additions](#requested-additions)
-- [Features](#features)
-- [Setup](#setup)
-- [Run the Application](#run-the-application)
-- [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [Roadmap](#roadmap)
-- [FAQ](#faq)
+---
 
+## 🧠 Project Management
 
-## Project management
+Dennis is a growing, community-driven initiative. Our core team is committed to organizing the project so contributors like YOU 🚀 can easily jump in, explore active development areas, and make an impact!
 
-Dennis is a community effort! Still, the core team of contributors aims at organizing the project in way that allows
-you to understand where the current areas of focus are.
+---
 
-If you want to know what we are working on, what we are planning to work on, or if you want to contribute to the
-project.
+## 📌 Requested Additions
 
-## Requested Additions
+✅ means already implemented!  
+Here's what the community has helped build so far:
 
-- ✅ OpenRouter Integration 
-- ✅ Gemini Integration 
-- ✅ Autogenerate Ollama models from what is downloaded 
-- ✅ Filter models by provider 
-- ✅ Download project as ZIP 
-- ✅ Improvements to the main bolt.new prompt in `app\lib\.server\llm\prompts.ts` 
-- ✅ DeepSeek API Integration 
-- ✅ Mistral API Integration 
-- ✅ "Open AI Like" API Integration 
-- ✅ Ability to sync files (one way sync) to local folder
-- ✅ Containerize the application with Docker for easy installation 
-- ✅ Publish projects directly to GitHub 
-- ✅ Ability to enter API keys in the UI 
-- ✅ xAI Grok Beta Integration 
-- ✅ LM Studio Integration 
-- ✅ HuggingFace Integration 
-- ✅ Bolt terminal to see the output of LLM run commands 
-- ✅ Streaming of code output 
-- ✅ Ability to revert code to earlier version 
-- ✅ Chat history backup and restore functionality 
-- ✅ Cohere Integration 
+- ✅ OpenRouter Integration  
+- ✅ Gemini Integration  
+- ✅ Autogenerate Ollama models  
+- ✅ Filter models by provider  
+- ✅ ZIP project downloads  
+- ✅ Prompt enhancements in `prompts.ts`  
+- ✅ DeepSeek API  
+- ✅ Mistral API  
+- ✅ OpenAI-compatible API  
+- ✅ Local folder file sync  
+- ✅ Docker containerization  
+- ✅ Publish to GitHub  
+- ✅ API key UI editor  
+- ✅ xAI Grok Beta  
+- ✅ LM Studio  
+- ✅ HuggingFace  
+- ✅ Bolt Terminal  
+- ✅ Code output streaming  
+- ✅ Revert code history  
+- ✅ Chat backup & restore  
+- ✅ Cohere integration  
 
+---
 
-## Features
+## ✨ Features
 
-- **AI-powered full-stack web development** for **NodeJS based applications** directly in your browser.
-- **Support for multiple LLMs** with an extensible architecture to integrate additional models.
-- **Attach images to prompts** for better contextual understanding.
-- **Integrated terminal** to view output of LLM-run commands.
-- **Revert code to earlier versions** for easier debugging and quicker changes.
-- **Download projects as ZIP** for easy portability.
-- **Integration-ready Docker support** for a hassle-free setup.
+🔥 AI-powered full-stack web development (Node.js)  
+🧩 Multi-LLM support with pluggable architecture  
+🖼️ Attach images to prompts  
+🖥️ Integrated terminal for LLM command outputs  
+🕒 Code version history & rollback  
+🗂️ ZIP export for portability  
+🐳 Docker support for seamless setup
 
-## Setup
+---
 
-If you're new to installing software from GitHub, don't worry! If you encounter any issues, feel free to submit an "issue" using the provided links or improve this documentation by forking the repository, editing the instructions, and submitting a pull request. The following instruction will help you get the stable branch up and running on your local machine in no time.
+## 💻 Quick Setup
 
-Let's get you up and running with the stable version of Dennis!
+### 📥 [Download Latest Release](https://github.com/JayashBhandary/Dennis/releases/latest)
 
-## Quick Download
+1. Click **source.zip**
+2. Extract and follow the steps below!
 
-[Download Latest Release](https://github.com/JayashBhandary/Dennis/releases/latest) ← Click here to go the the latest release version!
+---
 
-- Next **click source.zip**
+## ⚙️ Prerequisites
 
-## Prerequisites
+Make sure you’ve got:
 
-Before you begin, you'll need to install two important pieces of software:
+### 🟢 Node.js  
+👉 [Download Node.js](https://nodejs.org/en/download/) (LTS recommended)
 
-### Install Node.js
+---
 
-Node.js is required to run the application.
+## 🛠️ Running the Application
 
-1. Visit the [Node.js Download Page](https://nodejs.org/en/download/)
-2. Download the "LTS" (Long Term Support) version for your operating system
-3. Run the installer, accepting the default settings
-4. Verify Node.js is properly installed:
-   - **For Windows Users**:
-     1. Press `Windows + R`
-     2. Type "sysdm.cpl" and press Enter
-     3. Go to "Advanced" tab → "Environment Variables"
-     4. Check if `Node.js` appears in the "Path" variable
-   - **For Mac/Linux Users**:
-     1. Open Terminal
-     2. Type this command:
-        ```bash
-        echo $PATH
-        ```
-     3. Look for `/usr/local/bin` in the output
+### 🔹 Option 1: Direct Install (Great for Beginners)
 
-## Running the Application
+```bash
+npm install -g pnpm
+pnpm install
+pnpm run dev
+```
 
-You have two options for running Dennis: directly on your machine or using Docker.
-
-### Option 1: Direct Installation (Recommended for Beginners)
-
-1. **Install Package Manager (pnpm)**:
-
-   ```bash
-   npm install -g pnpm
-   ```
-
-2. **Install Project Dependencies**:
-
-   ```bash
-   pnpm install
-   ```
-
-3. **Start the Application**:
-
-   ```bash
-   pnpm run dev
-   ```
-   
 
 ## Configuring API Keys and Providers
 
